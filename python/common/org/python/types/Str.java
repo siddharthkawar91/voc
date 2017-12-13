@@ -292,7 +292,7 @@ public class Str extends org.python.types.Object {
                     }
 
                     if (step == 0) {
-                        throw new org.python.exceptions.ValueError("step value cannot be zero");
+                        throw new org.python.exceptions.ValueError("slice step cannot be zero");
                     }
 
                     if (step > 0) {
